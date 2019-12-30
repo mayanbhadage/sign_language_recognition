@@ -83,3 +83,17 @@ This step is optional. You can try some images and check their prediction. To do
 - path_to_image : provide path to the image
 
 This will give output as prediction of the model
+
+## Final
+
+After generating the proper model execute the following script
+
+`python final.py`
+
+place your hand inside the green box and watch for the prediction.
+
+press 's' key on the keyboard to save the text press 'r' key on the keyboard to reset the text
+
+## Issues?
+
+If you got any questions or issues feel free to create an issue.
