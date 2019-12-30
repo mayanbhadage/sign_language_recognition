@@ -34,3 +34,22 @@ cap = cv2.VideoCapture(0) to cap = cv2.VideoCapture(1)
 After the window open properly place your hand over the green boxes and make sure you cover all of them to generate a good histogram. On window follow the instructions.
 
 Press 'c' key on the keyboard to capture the histogram. If you think you captured a decent histogram, press key 's' on keyboard to save the histogram. If the histogram was not captured properly you can again place the hand on the green box and press 'c' on keyboard to capture it again.
+
+### 2\. Generate Images for training
+
+Once the histogram is generated it will we saved in the project directory as hand_histogram.pickle
+
+To collect the hand images for training execute the following command:
+
+`python collect_training_images.py` [label_name] [num_samples]
+
+Both the command line argument are necessary
+
+- label_name : The name of your label
+- num_samples: Total number of samples you want to collect
+
+After executing this command a window will open press 's' key on keyboard to start saving the images or 'q' key on keyboard to quit
+
+After collecting all the images the window will be closed automatically
+
+Collect 200 images each of at least 5-6 labels to train your model properly
