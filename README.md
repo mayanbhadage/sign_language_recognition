@@ -2,6 +2,8 @@
 
 This project is used to detect and predict hand gestures with the help of OpenCV and TensorFlow
 
+![Sample Output](sample.gif)
+
 ## Getting Started
 
 ### Requirements
